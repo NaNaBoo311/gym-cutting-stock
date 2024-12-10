@@ -19,13 +19,13 @@ class CuttingStockEnv(gym.Env):
     def __init__(
         self,
         render_mode=None,
-        min_w=50,
-        min_h=50,
-        max_w=100,
-        max_h=100,
-        num_stocks=100,
+        min_w=10,
+        min_h=10,
+        max_w=30,
+        max_h=30,
+        num_stocks=20,
         max_product_type=25,
-        max_product_per_type=20,
+        max_product_per_type=5,
         seed=42,
     ):
         self.seed = seed
