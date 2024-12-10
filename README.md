@@ -3,9 +3,10 @@
 ## How to install
     
 ```bash
-pip install git+https://github.com/martinakaduc/gym-cutting-stock
-```
+pip install git+https://github.com/NaNaBoo311/gym-cutting-stock
 
+
+```
 ## Sample code for Random Policy
 
 ```python
